@@ -1,0 +1,17 @@
+github.com/andersonlira/goutils v0.0.0-20210528121141-0a45b713dde3 h1:wjdJL4I//Qf4vR7SXBhMbIeLbfsyzH3rypNlOXFE0Tk=
+github.com/andersonlira/goutils v0.0.0-20210528121141-0a45b713dde3/go.mod h1:DqKrIPf8mS+LfL8LmAX3QYSOFsLf/Yyv1tNg2FdHocA=
+github.com/andersonlira/goutils v0.0.0-20210530072242-ac1ddeabb15e h1:w4wfydgDesf6cWMSHqfacbD/wTQsLgsMRqsYeN9gIfY=
+github.com/andersonlira/goutils v0.0.0-20210530072242-ac1ddeabb15e/go.mod h1:DqKrIPf8mS+LfL8LmAX3QYSOFsLf/Yyv1tNg2FdHocA=
+github.com/andersonlira/goutils v0.0.0-20210530072510-94c27275bfc4 h1:XtQKvdq+w97Wf0ZA3k0XFPcxQc3R0wcpDfoArLRKkzU=
+github.com/andersonlira/goutils v0.0.0-20210530072510-94c27275bfc4/go.mod h1:DqKrIPf8mS+LfL8LmAX3QYSOFsLf/Yyv1tNg2FdHocA=
+github.com/andersonlira/goutils v0.0.0-20210530072626-5a3d809930e9 h1:2s5VM1QuORu4tNd8DuGZUuEH6O0ni8Tr9KlitLCUpPk=
+github.com/andersonlira/goutils v0.0.0-20210530072626-5a3d809930e9/go.mod h1:DqKrIPf8mS+LfL8LmAX3QYSOFsLf/Yyv1tNg2FdHocA=
+github.com/andersonlira/goutils v0.0.0-20210530073108-92a9361c015f h1:d4A2B6Z8r4/eIyFwVCr9O4K2IFMD/uzxkf7hROT2gIU=
+github.com/andersonlira/goutils v0.0.0-20210530073108-92a9361c015f/go.mod h1:DqKrIPf8mS+LfL8LmAX3QYSOFsLf/Yyv1tNg2FdHocA=
+github.com/fsnotify/fsnotify v1.4.9/go.mod h1:znqG4EE+3YCdAaPaxE2ZRY/06pZUdp0tY4IgpuI1SZQ=
+github.com/xrash/smetrics v0.0.0-20170218160415-a3153f7040e9 h1:w8V9v0qVympSF6GjdjIyeqR7+EVhAF9CBQmkmW7Zw0w=
+github.com/xrash/smetrics v0.0.0-20170218160415-a3153f7040e9/go.mod h1:N3UwUGtsrSj3ccvlPHLoLsHnpR27oXr4ZE984MbSER8=
+golang.org/x/sys v0.0.0-20191005200804-aed5e4c7ecf9/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+golang.org/x/text v0.3.2 h1:tW2bmiBqwgJj/UpqtC8EpXEZVYOwU0yG4iWbprSVAcs=
+golang.org/x/text v0.3.2/go.mod h1:bEr9sfX3Q8Zfm5fL9x+3itogRgK3+ptLWKqgva+5dAk=
+golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod h1:n7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=
