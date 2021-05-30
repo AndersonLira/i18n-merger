@@ -11,9 +11,10 @@ import (
 func main(){
 	args := os.Args[1:]
 	matrix := ft.Matrix{Width: 150, Separator: '-'}
-	if len(args) != 2 {
+	if len(args) != 2 && len(args) != 3 {
 		matrix.Line()
-		matrix.Println("Command must be 2 arguments. First argument local pt.json path and second argument production pt.json path.")
+		matrix.Println("Command must have 2 or 3 arguments. First argument local pt.json path and second argument production pt.json path.") 
+		matrix.Println("Third argument if equals to 'Y' or 'y' it will ignore prompt")
 		matrix.Line()
 		os.Exit(1)
 	}
@@ -70,7 +71,14 @@ func main(){
 	if len(result.DiffKeys) == 0 {
 		matrix.PrettyP("No differences",ft.BLUE)
 	}else {
-		matrix.PrettyP(fmt.Sprintf("There are %v modifications. Apply now on local file?",len(result.DiffKeys)),ft.YELLOW)
+		ignorePrompt := "n"
+		if len(args) == 3 {
+			ignorePrompt = args[3]
+		}
+		if ignorePrompt == "y" || ignorePrompt == "Y" {
+			mergeFile(fileWeak, result)
+		}
+		matrix.PrettyP(fmt.Sprintf("There are %v modifications. Apply now on local file? (Y or y)",len(result.DiffKeys)),ft.YELLOW)
 		reader := bufio.NewReader(os.Stdin)
 		char, _, _ := reader.ReadRune()
 		switch char {
