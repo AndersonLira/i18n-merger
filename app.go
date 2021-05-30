@@ -73,7 +73,7 @@ func main(){
 	}else {
 		ignorePrompt := "n"
 		if len(args) == 3 {
-			ignorePrompt = args[3]
+			ignorePrompt = args[2]
 		}
 		if ignorePrompt == "y" || ignorePrompt == "Y" {
 			mergeFile(fileWeak, result)
