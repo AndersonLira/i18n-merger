@@ -77,17 +77,18 @@ func main(){
 		}
 		if ignorePrompt == "y" || ignorePrompt == "Y" {
 			mergeFile(fileWeak, result)
-		}
-		matrix.PrettyP(fmt.Sprintf("There are %v modifications. Apply now on local file? (Y or y)",len(result.DiffKeys)),ft.YELLOW)
-		reader := bufio.NewReader(os.Stdin)
-		char, _, _ := reader.ReadRune()
-		switch char {
-		case 'Y':
-			mergeFile(fileWeak,result)
-		  	break
-		case 'y':
-		  	mergeFile(fileWeak,result)
-		  	break
+		}else{
+			matrix.PrettyP(fmt.Sprintf("There are %v modifications. Apply now on local file? (Y or y)",len(result.DiffKeys)),ft.YELLOW)
+			reader := bufio.NewReader(os.Stdin)
+			char, _, _ := reader.ReadRune()
+			switch char {
+			case 'Y':
+				mergeFile(fileWeak,result)
+				break
+			case 'y':
+				mergeFile(fileWeak,result)
+				break
+			}
 		}
 
 	}
