@@ -11,10 +11,11 @@ import (
 func main(){
 	args := os.Args[1:]
 	matrix := ft.Matrix{Width: 150, Separator: '-'}
-	if len(args) != 2 && len(args) != 3 {
+	if len(args) < 2 || len(args) > 4 {
 		matrix.Line()
-		matrix.Println("Command must have 2 or 3 arguments. First argument local pt.json path and second argument production pt.json path.") 
+		matrix.Println("Command must have 2, 3 or 4 arguments. First argument local pt.json path and second argument production pt.json path.") 
 		matrix.Println("Third argument if equals to 'Y' or 'y' it will ignore prompt")
+		matrix.Println("Fourth argument is the path for reports. It is optional")
 		matrix.Line()
 		os.Exit(1)
 	}
@@ -72,7 +73,7 @@ func main(){
 		matrix.PrettyP("No differences",ft.BLUE)
 	}else {
 		ignorePrompt := "n"
-		if len(args) == 3 {
+		if len(args) > 2 {
 			ignorePrompt = args[2]
 		}
 		if ignorePrompt == "y" || ignorePrompt == "Y" {
@@ -94,6 +95,11 @@ func main(){
 	}
 	matrix.Line()
 
+	if len(args) == 4 {
+		io.AppendFile(args[3],matrix.GetText())	
+	}
+
+	
 
 }
 
