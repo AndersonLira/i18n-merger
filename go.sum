@@ -12,6 +12,10 @@ github.com/andersonlira/goutils v0.0.0-20210609085444-95b20c299ced h1:cs3dpV3Kv2
 github.com/andersonlira/goutils v0.0.0-20210609085444-95b20c299ced/go.mod h1:DqKrIPf8mS+LfL8LmAX3QYSOFsLf/Yyv1tNg2FdHocA=
 github.com/andersonlira/goutils v0.0.0-20210707102835-eed0d44603df h1:2fEbZuGO+LuySQHJDOJMdg2Y7F8Fo392W9UtXAKTly4=
 github.com/andersonlira/goutils v0.0.0-20210707102835-eed0d44603df/go.mod h1:DqKrIPf8mS+LfL8LmAX3QYSOFsLf/Yyv1tNg2FdHocA=
+github.com/andersonlira/goutils v0.0.0-20210723075021-346eff385c4a h1:7bOTbT0DPaxS1hFFjLsDusNBOb4nnUEi/WbsJc6ZHEU=
+github.com/andersonlira/goutils v0.0.0-20210723075021-346eff385c4a/go.mod h1:DqKrIPf8mS+LfL8LmAX3QYSOFsLf/Yyv1tNg2FdHocA=
+github.com/andersonlira/goutils v0.0.0-20210723080501-916a7d6ff660 h1:OvuSajmzOZYkNT9BodCUD9kUmEcBdiu5cXVeLGUclJI=
+github.com/andersonlira/goutils v0.0.0-20210723080501-916a7d6ff660/go.mod h1:DqKrIPf8mS+LfL8LmAX3QYSOFsLf/Yyv1tNg2FdHocA=
 github.com/fsnotify/fsnotify v1.4.9/go.mod h1:znqG4EE+3YCdAaPaxE2ZRY/06pZUdp0tY4IgpuI1SZQ=
 github.com/xrash/smetrics v0.0.0-20170218160415-a3153f7040e9 h1:w8V9v0qVympSF6GjdjIyeqR7+EVhAF9CBQmkmW7Zw0w=
 github.com/xrash/smetrics v0.0.0-20170218160415-a3153f7040e9/go.mod h1:N3UwUGtsrSj3ccvlPHLoLsHnpR27oXr4ZE984MbSER8=
